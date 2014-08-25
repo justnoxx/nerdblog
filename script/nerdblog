@@ -1,0 +1,5 @@
+#!/usr/bin/env perl
+use strict;
+use NerdBlog;
+NerdBlog::CommandLine->new()->start();
+exit 0;
